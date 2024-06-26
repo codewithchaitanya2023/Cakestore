@@ -1,0 +1,34 @@
+.cake-container {
+  margin: 20px;
+}
+
+.cake-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cake-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
